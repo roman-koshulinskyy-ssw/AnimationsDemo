@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/slide_down_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/slide_down"/>
+
+   <Button
+       android:id="@+id/slide_up_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/slide_up"/>
+
+   <Button
+       android:id="@+id/fade_in_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/fade_in"/>
+
+   <Button
+       android:id="@+id/fade_out_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/fade_out"/>
+
+   <Button
+       android:id="@+id/zoom_in_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/zoom_in"/>
+
+   <Button
+       android:id="@+id/zoom_out_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/zoom_out"/>
+
+   <Button
+       android:id="@+id/rotate_clockwise_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/rotate_clockwise"/>
+
+   <Button
+       android:id="@+id/rotate_counter_clockwise_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:text="@string/rotate_counter_clockwise"/>
+
+</LinearLayout>

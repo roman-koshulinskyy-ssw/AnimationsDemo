@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AnimationsDemo</string>
+    <string name="slide_down">Slide down</string>
+    <string name="slide_up">Slide up</string>
+    <string name="fade_in">Fade in</string>
+    <string name="fade_out">Fade out</string>
+    <string name="zoom_in">Zoom in</string>
+    <string name="zoom_out">Zoom out</string>
+    <string name="rotate_clockwise">Rotate clockwise</string>
+    <string name="rotate_counter_clockwise">Rotate counter clockwise</string>
+</resources>
